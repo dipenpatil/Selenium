@@ -8,7 +8,7 @@ public class Chrome {
     public static void main(String[] args) {  
       
            // System Property for Chrome Driver   
-        System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");  
+        System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");  \\add your path here
           
              // Instantiate a ChromeDriver class.     
         WebDriver driver=new ChromeDriver();  
